@@ -3,21 +3,31 @@ Python machine coding interviews typically test fundamental data structures, obj
 Core Python Concepts
 
 List vs. Tuple: Lists are mutable; tuples are immutable. Tuples are preferred for dict keys because they are hashable. 
+
 Dict Comprehensions: Candidates often struggle to write key: value mappings compared to list comprehensions.
+
 GIL (Global Interpreter Lock): Explaining how GIL affects multi-threaded performance is a common advanced question.
 Common Coding Tasks
 
 Sorting with Keys: Use sorted(list, key=len) to sort strings by length.
+
 Custom Classes: Implement classes with @property and @setter decorators, often adding constraints like lazy evaluation for expensive operations.
+
 Data Manipulation: Tasks include reversing a linked list, finding the median in linear time, or generating valid parentheses combinations using backtracking. 
+
 Queue/Stack Implementation: Building a queue using two stacks (FIFO) or a stack using two queues (LIFO). 
+
 Machine Learning Specifics For ML roles, questions focus on data handling and model evaluation:
 
 Pandas: Use data.isnull().sum() to find missing values and pd.get_dummies() for categorical encoding. 
+
 Scikit-learn: Implement train_test_split for data splitting and evaluate models using accuracy_score or confusion_matrix. 
+
 Normalization: Use MinMaxScaler to scale features for better model convergence.
 Key Resources
 
 GeeksforGeeks: Offers 100+ Python exercises with solutions for beginners to advanced levels. 
+
 DataCamp: Provides top Python interview questions covering OOP, data science, and FAANG-style challenges. 
+
 LeetCode: Essential for practicing algorithmic coding rounds in Python
